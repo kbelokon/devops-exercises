@@ -844,7 +844,7 @@ kubectl get rs
 <details>
 <summary>Is it possible to delete ReplicaSet without deleting the Pods it created?</summary><br><b>
 
-Yes, with `--cascase=false`.
+Yes, with `--cascade=false`.
 
 `kubectl delete -f rs.yaml --cascade=false`
 </b></details>
